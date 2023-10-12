@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Request Form - Divine Magic Foundation</title>
+    <link rel="stylesheet" href="../css/volunteer.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="images/Screenshot (3813).png" alt="Divine Magic Foundation Logo"> <span> Divine Magic
+                Foundation</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="upcoming_camps.html">Upcoming Camps</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="volunteer-form">
+        <div class="form-container">
+            <h1>Volunteer Request Form</h1>
+            <form action="submit_volunteer.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="interest">Area of Interest:</label>
+                <input type="text" id="interest" name="interest" required>
+
+                <label for="availability">Availability:</label>
+                <input type="text" id="availability" name="availability" required>
+
+                <label for="message">Additional Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
